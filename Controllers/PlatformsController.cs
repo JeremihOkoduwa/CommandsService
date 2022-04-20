@@ -15,6 +15,7 @@ namespace CommandsService.Controllers
         [HttpPost]
         public ActionResult TestInboundConnection()
         {
+            //
             _logger.LogInformation("----Inbound post request---");
             return Ok("outboud response");
         }
